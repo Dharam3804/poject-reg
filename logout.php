@@ -1,0 +1,10 @@
+<?php
+  session_start();
+  unset($_SESSION["id"]);
+  unset($_SESSION["sch_no"]);
+  unset($_SESSION["s_name"]);
+  unset($_SESSION["dept"]);
+  unset($_SESSION["course"]);
+   unset($_SESSION["sem"]);
+  header("location:login.php");
+ ?>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          .container{border:2px solid black;}   
+            h2{ margin:0 0 0 200px;}
+            body{background-color:coral;}
+        </style>
+    </head>
+    <body>
+        <form action="reg_to_db.php" method="POST">
+           <div class="container"  >
+            <h1 align="center" >Registration form</h1>
+           <br><br>
+        <h2>id<br><input type="text" name="id"></h2>
+        <h2>scholar no<br><input type="text" name="sch_no"></h2>
+        <h2>name<br><input type="text" name="s_name"></h2>
+        <h2>email_id<br><input type="email" name="email_id"></h2>
+        <h2>password<br><input type="password" name="pwd"></h2>
+        <h2>Department<br><select name="dept">
+                 <option></option>
+                 <option value="CSE">CSE</option>
+                 <option value="ECE">ECE</option>
+                 <option value="MECH">MECH</option>
+                 <option value="EE">EE</option>
+                 <option value="CIVIL">CIVIL</option>
+                 <option value="MSME">MSME</option>
+               </select>
+        </h2>
+            
+        <h2>Course<br><select name="course">
+               <option ></option>
+                <option value="BTECH">BTECH</option>
+                <option value="MTECH">MTECH</option>
+                <option value="PHD">PHD</option>
+               </select>
+        </h2>
+        <h2>semester<br><select name="sem">
+                <option ></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option> 
+               </select>
+        </h2>     
+    </div>   
+   <div style="text-align:center"> <h1 style="margin:0 0 0 100px";><input type="submit" value="SUBMIT" ></h1> </div>   
+        </form>
+    </body>
+</html>
